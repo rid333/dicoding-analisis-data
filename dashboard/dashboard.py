@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-day_df = pd.read_csv('day.csv')
+day_df = pd.read_csv('dashboard/day.csv')
 # Hapus kolom yang tidak diperlukan
 day_df = day_df.drop(['instant', 'atemp', 'windspeed', 'holiday', 'weekday'], axis=1)
 

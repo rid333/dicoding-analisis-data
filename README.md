@@ -20,6 +20,5 @@ jupyter-lab .
 Sedangkan untuk menjalankan dashboard, Anda cukup menjalankan perintah berikut pada terminal:
 
 ```
-cd dashboard
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
 ```
